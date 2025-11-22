@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* 한줄 말줄임 */
+.ellipsis{display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+/* 스크롤 바 숨기기 */
+.invisible-scroll{-ms-overflow-style:none; scrollbar-width:none;}
+.invisible-scroll::-webkit-scrollbar{display:none;}
+/* Input 엘리먼트 다국어 설정 */
+input.de{ime-mode:inactive;}
+input.dk{ime-mode:active;}
+input.al{ime-mode:auto;}
+input.oe{ime-mode:disabled;}
+/* 그리드 시스템 초기화 */
+[class^=grid]{clear:none; float:left;}
+.row:not(.flex)::after{position:initial; display:block; clear:both;}
+.row.flex{display:flex; flex-wrap: wrap;}
+.rowfull{display:inline-block; width:100%; vertical-align:top;}
+/* 웹 접근성 숨김 처리 (Web Accessibility Initiative) */
+.wai{position:absolute !important; z-index:-999 !important; opacity:0 !important; width:0 !important; height:0 !important;}
+/* Atomic */
+.h-24 { height: 24; }
+.gap-8 { gap: 8; }
+.mb-4 { margin-bottom: 4; }
+.mt-4 { margin-top: 4; }
+.mt-8 { margin-top: 8; }
+.p-6 { padding: 6; }
+.mt-1 { margin-top: 1; }
+.mr-3 { margin-right: 3; }
+.gap-4 { gap: 4; }
+.mr-2 { margin-right: 2; }
+.p-8 { padding: 8; }
+.mb-6 { margin-bottom: 6; }
+.mt-2 { margin-top: 2; }
+.mb-1 { margin-bottom: 1; }
+.gap-6 { gap: 6; }
+.w-16 { width: 16; }
+.h-16 { height: 16; }
+.mb-12 { margin-bottom: 12; }
+.mt-16 { margin-top: 16; }
+.mb-16 { margin-bottom: 16; }
+.gap-10 { gap: 10; }
+.p-7 { padding: 7; }
+.w-14 { width: 14; }
+.h-14 { height: 14; }
+.mb-2 { margin-bottom: 2; }
+.mt-0 { margin-top: 0; }
+.pl-6 { padding-left: 6; }
+.pl-5 { padding-left: 5; }
+.p-10 { padding: 10; }
+.ml-6 { margin-left: 6; }
+.mt-5 { margin-top: 5; }
+.mt-12 { margin-top: 12; }
+.mb-3 { margin-bottom: 3; }
+.gap-12 { gap: 12; }
+.mt-10 { margin-top: 10; }
+.mb-10 { margin-bottom: 10; }
+.w-12 { width: 12; }
+.h-12 { height: 12; }
+.mr-4 { margin-right: 4; }
+.mt-6 { margin-top: 6; }
+.p-4 { padding: 4; }
+.mb-8 { margin-bottom: 8; }
+.h-20 { height: 20; }
+.w-10 { width: 10; }
+.h-10 { height: 10; }
+.pt-8 { padding-top: 8; }.p-3 { padding: 3; }
+.gap-2 { gap: 2; }
+.w-2 { width: 2; }
+.h-2 { height: 2; }.h-72 { height: 72; }.h-80 { height: 80; }.w-24 { width: 24; }
+.h-1 { height: 1; }
