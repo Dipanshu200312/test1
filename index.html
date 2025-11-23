@@ -3,8 +3,26 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Become a Chartered Wealth Manager® (CWM®) — AAFM India</title>
+  <title>Chartered Wealth Management Course® | CWM Course®</title>
+        <meta name="description" content="AAFM®’s Chartered Wealth Management & Investment Advisory Certification Chartered Wealth Manager® is created for ambitious Wealth Advisors. Enquire Now!" >
+  
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Chartered Wealth Management® Course |  CWM® Course" />
+<meta property="og:description" content="AAFM®’s Chartered  Wealth Management & Investment Advisory Certification Chartered Wealth Manager® was created for ambitious Wealth Advisors. Enquire Now!" />
+<meta property="og:url" content="https://www.aafmindia.co.in/cwm-certified-wealth-manager-amp/" />
+<meta property="og:site_name" content="Chartered Wealth Management® Course " />
+    <!--<meta property="og:image" content=""/>    -->
+
+    <meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@aafmindia">
+<meta name="twitter:title" content="Chartered Wealth Management® Course |  CWM® Course">
+<meta name="twitter:description" content="AAFM®’s Chartered  Wealth Management & Investment Advisory Certification Chartered Wealth Manager® was created for ambitious Wealth Advisors. Enquire Now!">
+<!--<meta name="twitter:image" content="">-->
+<meta name="twitter:image:alt" content="Chartered Wealth Management® Course |  CWM® Course">
+       
+
   <script src="https://cdn.tailwindcss.com"></script>
+  <link name="favicon" type="image/x-icon" href="https://aafmindia.org/uploads/system/ac38ad5bd0066b658944b29f7848bcec.png" rel="shortcut icon" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- AOS Animations -->
@@ -16,7 +34,7 @@
       font-family: 'Inter', sans-serif;
     }
     .gradient-bg {
-      background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+      background: #202b61;
     }
     .card {
       background: #fff;
@@ -29,13 +47,13 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.12);
     }
     .accent-text {
-      color: #0ea5e9;
+      color: #202b61;
     }
     .accent-bg {
-      background-color: #0ea5e9;
+      background-color: #202b61;
     }
     .btn-primary {
-      background: linear-gradient(135deg, #0ea5e9 0%, #06b6d4 100%);
+      background: #efa100;
       transition: all 0.3s ease;
     }
     .btn-primary:hover {
@@ -43,11 +61,11 @@
       box-shadow: 0 5px 15px rgba(14, 165, 233, 0.3);
     }
     .btn-secondary {
-      background: #f97316;
+      background: #efa100;
       transition: all 0.3s ease;
     }
     .btn-secondary:hover {
-      background: #ea580c;
+      background: #efa100;
       transform: translateY(-2px);
       box-shadow: 0 5px 15px rgba(249, 115, 22, 0.3);
     }
@@ -85,49 +103,286 @@
     .nav-item:hover:after {
       width: 100%;
     }
+    
+    /* Recognition/Slider Styles */
+    .recognition-section {
+      background: #f9fafb;
+      padding: 80px 0;
+    }
+    .recognition-wrapper {
+      max-width: 7xl;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .recognition-heading {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: #202b61;
+      margin-bottom: 16px;
+    }
+    .recognition-description {
+      font-size: 1.125rem;
+      color: #6b7280;
+      margin-bottom: 32px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .recognition-line {
+      width: 96px;
+      height: 4px;
+      background: linear-gradient(90deg, #0ea5e9 0%, #06b6d4 100%);
+      border-radius: 2px;
+      margin: 24px auto 32px;
+    }
+    .recognition-slider {
+      display: flex;
+      gap: 24px;
+      animation: scroll 30s linear infinite;
+      overflow: hidden;
+    }
+    .recognition-slider:hover {
+      animation-play-state: paused;
+    }
+    .recognition-logo-box {
+      flex-shrink: 0;
+      width: 160px;
+      height: 120px;
+      background: white;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      transition: all 0.3s ease;
+    }
+    .recognition-logo-box:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    }
+    .recognition-logo-box img {
+      max-width: 90%;
+      max-height: 90%;
+      object-fit: contain;
+    }
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    @media (max-width: 768px) {
+      .recognition-heading {
+        font-size: 1.875rem;
+      }
+      .recognition-description {
+        font-size: 1rem;
+      }
+      .recognition-logo-box {
+        width: 140px;
+        height: 100px;
+      }
+      .recognition-slider {
+        gap: 16px;
+      }
+    }
+    
+    /* Global Affiliations Styles */
+    .global-affiliations {
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      padding: 80px 0;
+    }
+    .affiliation-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #202b61;
+      margin-bottom: 16px;
+    }
+    .affiliation-subtext {
+      font-size: 1.125rem;
+      color: #6b7280;
+      margin-bottom: 24px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .affiliation-underline {
+      width: 100px;
+      height: 5px;
+      background: linear-gradient(90deg, #0ea5e9 0%, #06b6d4 100%);
+      border-radius: 3px;
+      margin: 0 auto 48px;
+    }
+  .logo-carousel {
+        overflow: hidden;
+        width: 100%;
+        padding: 30px 0;
+        position: relative;
+      }
+
+      .logo-track {
+        display: flex;
+        gap: 40px;
+        width: calc(200px * 16);
+        animation: scroll 18s linear infinite;
+      }
+
+      .logo-item {
+        width: 200px;
+        flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo-item img {
+        width: 100%;
+        height: 80px;
+        object-fit: contain;
+        /* filter: grayscale(100%); */
+        /* opacity: 0.7;
+        transition: 0.3s ease; */
+      }
+
+      .logo-item img:hover {
+        /* filter: grayscale(0%); */
+        opacity: 1;
+        transform: scale(1.05);
+      }
+
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+
+      @media (max-width: 640px) {
+        .logo-item { width: 150px; }
+        .logo-item img { height: 60px; }
+      }
   </style>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
 
 <!-- Navigation -->
-<header class="sticky top-0 z-50 bg-white shadow-sm">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-    <div class="flex items-center">
-            
-<div class="flex items-center">
-  <img 
-    src="https://www.aafmindia.co.in/cwm-certified-wealth-manager-amp/images/logo.png" 
-    alt="AAFM India Logo" 
-    class="w-[9rem] h-24 object-contain" 
-  >
+<!-- MINI TOP BAR -->
+<div class="w-full bg-black text-white text-sm py-2 px-6">
+  <div class="max-w-7xl mx-auto flex justify-end items-center space-x-6">
+
+    <a href="mailto:info@aafmindia.co.in" class="flex items-center space-x-1">
+      <i class="fas fa-envelope text-xs"></i>
+      <span>info@aafmindia.co.in</span>
+    </a>
+
+    <a href="tel:01145120800" class="flex items-center space-x-1">
+      <i class="fas fa-phone-alt text-xs"></i>
+      <span>011-45120800</span>
+    </a>
+
+  </div>
 </div>
 
+<!-- MAIN HEADER -->
+<header class="sticky top-0 z-50 bg-white shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+    <!-- LEFT — LOGO -->
+    <a href="https://aafmindia.org/">
+      <img 
+        src="https://aafmindia.org/uploads/system/db6f613e343e74dba3c6a638ee224a62.png"
+        alt="AAFM India Logo"
+        class="w-36 h-20 object-contain"
+      >
+    </a>
+
+    <!-- DESKTOP NAVIGATION -->
+    <nav class="hidden lg:flex items-center space-x-6">
+
+      <!-- EXPLORE DROPDOWN -->
+      <div class="relative group">
+        <button class="px-4 py-2 border rounded-md font-medium text-gray-800 bg-gray-100">
+          Explore <i class="fas fa-chevron-down ml-1 text-xs"></i>
+        </button>
+
+        <div class="absolute hidden group-hover:block bg-white shadow-xl rounded-lg p-6 w-80 mt-2 z-50">
+          <ul class="space-y-3 text-gray-700">
+            <li><a href="https://aafmindia.org/pages/professionals" class="hover:text-[#f0a100]">For Professionals</a></li>
+            <li><a href="https://aafmindia.org/pages/students" class="hover:text-[#f0a100]">For Students</a></li>
+            <li><a href="https://aafmindia.org/pages/corporates" class="hover:text-[#f0a100]">For Corporates</a></li>
+            <li><a href="https://aafmindia.org/pages/institutions" class="hover:text-[#f0a100]">For Institutions</a></li>
+            <li><a href="https://aafmindia.org/pages/government" class="hover:text-[#f0a100]">For Government</a></li>
+            <li><a href="https://aafmindia.org/event" class="hover:text-[#f0a100]">For Event</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ABOUT US -->
+      <a href="https://aafmindia.org/pages/about_aafm_india" class="font-medium hover:text-[#f0a100]">
+        About Us
+      </a>
+
+      <!-- CONTACT US -->
+      <a href="https://aafmindia.org/home/contact_us" class="font-medium hover:text-[#f0a100]">
+        Contact Us
+      </a>
+
+    </nav>
+
+    <!-- RIGHT ACTIONS -->
+    <div class="hidden lg:flex items-center space-x-4">
+
+      <!-- SEARCH -->
+      <form action="https://aafmindia.org/home/search" method="get">
+        <div class="relative">
+          <input 
+            type="text"
+            name="query"
+            class="w-96 border border-gray-300 rounded-md px-4 py-2 focus:ring-[#202b61] focus:border-[#202b61]"
+            placeholder="What do you want to learn?"
+          >
+          <i class="fas fa-search absolute right-3 top-3 text-gray-500"></i>
+        </div>
+      </form>
+
+      <!-- CART -->
+      <a href="https://aafmindia.org/home/shopping_cart" class="relative text-gray-700">
+        <i class="fas fa-shopping-cart text-xl"></i>
+        <span class="absolute -top-2 -right-2 bg-[#f0a100] text-white rounded-full px-2 text-xs">0</span>
+      </a>
+
+      <!-- LOGIN -->
+      <a href="https://aafmindia.org/home/login" class="text-gray-700 font-medium">Log in</a>
+
+      <!-- JOIN FOR FREE -->
+      <a href="https://aafmindia.org/home/sign_up" class="px-4 py-2 rounded-md border border-gray-400 font-medium">
+        Join for Free
+      </a>
 
     </div>
-    
-    <nav class="hidden md:flex space-x-8">
-      <a href="#overview" class="nav-item font-medium">Overview</a>
-      <a href="#curriculum" class="nav-item font-medium">Curriculum</a>
-      <a href="#benefits" class="nav-item font-medium">Benefits</a>
-      <a href="#testimonials" class="nav-item font-medium">Testimonials</a>
-      <a href="#pricing" class="nav-item font-medium">Pricing</a>
-      <a href="#faq" class="nav-item font-medium">FAQ</a>
-    </nav>
-    
-    <div class="flex items-center space-x-4">
-      <a href="#" data-open-modal class="px-4 py-2 btn-primary text-white rounded-lg font-medium">Enquire Now</a>
-      <button class="md:hidden text-gray-600">
-        <i class="fas fa-bars text-xl"></i>
-      </button>
-    </div>
+
+    <!-- MOBILE TOGGLE -->
+    <button class="lg:hidden text-gray-700 text-2xl">
+      <i class="fas fa-bars"></i>
+    </button>
+
   </div>
 </header>
+
 
 <!-- Header / Hero -->
 <section class="gradient-bg text-white">
   <div class="max-w-7xl mx-auto px-6 py-16 lg:py-24 grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
     <div class="lg:col-span-2">
+      <div class="mb-4">
+        <img src="https://www.aafmindia.co.in/cwm-certified-wealth-manager-amp/images/CWM%20Logo-small.jpg" alt="CWM Logo" class="w-36 h-auto object-contain" loading="lazy">
+      </div>
       <div class="inline-block px-3 py-1 rounded-full text-sm mb-4" style="background-color: #efa100; color: white;">Globally Recognized Certification</div>
+     
       <h1 class="text-4xl lg:text-4xl font-bold leading-tight">Become a <span class="highlight">Chartered Wealth Manager<sup>®</sup></span> (CWM<sup>®</sup>)</h1>
       <p class="mt-4 text-lg lg:text-xl opacity-90">From Wealth Management, Investment Planning, and Offshore Wealth Advisory to mastery of Holistic Wealth Plans</p>
 
@@ -135,26 +390,26 @@
         <h3 class="font-semibold text-lg">CWM<sup>®</sup> Certification teaches you the skills that will help you:</h3>
         <ul class="mt-4 space-y-3">
           <li class="flex items-start">
-            <i class="fas fa-check-circle text-green-300 mt-1 mr-3"></i>
+            <i class="fas fa-check-circle text-green-300 mt-1 mr-3 flex-shrink-0"></i>
             <span>Stand out as a world-class Wealth Manager & Private Banker</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check-circle text-green-300 mt-1 mr-3"></i>
+            <i class="fas fa-check-circle text-green-300 mt-1 mr-3 flex-shrink-0"></i>
             <span>Without spending years in a Classroom</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check-circle text-green-300 mt-1 mr-3"></i>
+            <i class="fas fa-check-circle text-green-300 mt-1 mr-3 flex-shrink-0"></i>
             <span>Without spending Lacs of rupees</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check-circle text-green-300 mt-1 mr-3"></i>
+            <i class="fas fa-check-circle text-green-300 mt-1 mr-3 flex-shrink-0"></i>
             <span>Join 300,000+ CWM<sup>®</sup> Certificants at JP Morgan, Citi Bank, ICICI, HDFC, IIFL, Edelweiss, etc.</span>
           </li>
         </ul>
       </div>
 
       <div class="mt-8 flex flex-wrap gap-4">
-        <a href="#" class="px-8 py-3 btn-secondary text-white rounded-lg font-semibold shadow-lg flex items-center">
+        <a href="#" data-open-modal class="px-8 py-3 btn-secondary text-white rounded-lg font-semibold shadow-lg flex items-center">
           <i class="fas fa-download mr-2"></i> Download Brochure
         </a>
         <a href="#" data-open-modal class="px-8 py-3 bg-white text-blue-600 rounded-lg font-semibold shadow-lg flex items-center">
@@ -164,34 +419,47 @@
     </div>
 
     <!-- Right column: Request for More Information form -->
-    <aside id="contact" class="bg-white p-8 rounded-2xl card">
-      <div class="text-center mb-6">
-        <h3 class="text-xl font-bold text-gray-800">Request More Information</h3>
-        <p class="mt-2 text-sm text-gray-600">Get complete program details, fee structure, and eligibility criteria</p>
-      </div>
-      <form class="space-y-4" id="bannerForm">
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">Full Name*</label>
-          <input required placeholder="Enter your full name" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800" />
-        </div>
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">Email Address*</label>
-          <input required type="email" placeholder="Enter your email" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800" />
-        </div>
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number* (10 digits)</label>
-          <input required type="tel" placeholder="Enter your 10-digit phone number" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800" maxlength="10" pattern="[0-9]{10}" />
-        </div>
-        <div>
-          <label class="block text-sm font-medium text-gray-700 mb-1">Message (Optional)</label>
-          <textarea placeholder="Any specific questions?" class="w-full border border-gray-300 rounded-lg px-4 py-3 h-24 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800"></textarea>
-        </div>
-        <p class="text-xs text-gray-500 text-center">By clicking submit, I authorize AAFM representative to contact me via phone or email</p>
-        <button type="submit" class="w-full btn-primary text-white rounded-lg py-3 font-semibold flex items-center justify-center">
-          <i class="fas fa-paper-plane mr-2"></i> Get More Information
-        </button>
-      </form>
-    </aside>
+   <aside id="contact" class="bg-white p-8 rounded-2xl card">
+  <div class="text-center mb-6">
+    <h3 class="text-xl font-bold text-gray-800">Request More Information</h3>
+    <p class="mt-2 text-sm text-gray-600">Get complete program details, fee structure, and eligibility criteria</p>
+  </div>
+
+  <form class="space-y-4" id="bannerForm" method="POST" action="mail.php">
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Full Name*</label>
+      <input name="MasterInner_txtName" required placeholder="Enter your full name"
+        class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800" />
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Email Address*</label>
+      <input name="MasterInner_txtEmail" required type="email" placeholder="Enter your email"
+        class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800" />
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number* (10 digits)</label>
+      <input name="MasterInner_txtMobile" required type="tel" placeholder="Enter your 10-digit phone number"
+        class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800"
+        maxlength="10" pattern="[0-9]{10}" />
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1">Message (Optional)</label>
+      <textarea name="MasterInner_message" placeholder="Any specific questions?"
+        class="w-full border border-gray-300 rounded-lg px-4 py-3 h-24 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800"></textarea>
+    </div>
+
+
+    <button type="submit" name="MasterInner_submit" class="w-full btn-primary text-white rounded-lg py-3 font-semibold flex items-center justify-center">
+      <i class="fas fa-paper-plane mr-2"></i> Get More Information
+    </button>
+
+  </form>
+</aside>
+
   </div>
 </section>
 
@@ -202,14 +470,14 @@
       <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-4">
         <i class="fas fa-user-graduate text-blue-600 text-2xl"></i>
       </div>
-      <div class="text-3xl font-bold accent-text">324,545+</div>
+      <div class="text-3xl font-bold accent-text">3,24,545+</div>
       <div class="text-gray-600 mt-2">AAFM® Certificants Globally</div>
     </div>
     <div class="text-center card p-8">
       <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-4">
         <i class="fas fa-clock text-blue-600 text-2xl"></i>
       </div>
-      <div class="text-3xl font-bold accent-text">6</div>
+      <div class="text-3xl font-bold accent-text">5 to 6</div>
       <div class="text-gray-600 mt-2">Months Average Completion Time</div>
     </div>
     <div class="text-center card p-8">
@@ -219,6 +487,46 @@
       <div class="text-3xl font-bold accent-text">14,25,000</div>
       <div class="text-gray-600 mt-2">INR Average Salary</div>
     </div>
+  </div>
+</section>
+<section class="py-12 bg-slate-50 mt-6">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+
+    <!-- Heading -->
+    <h2 class="text-3xl font-extrabold text-brandNavy tracking-wide">
+      OUR GLOBAL ACCREDITATIONS
+    </h2>
+    <p class="mt-2 text-slate-600">
+      Our Certifications are recognized by Employers, Institutions, and Regulators Worldwide.
+    </p>
+
+    <!-- Underline -->
+    <div class="w-24 h-1 bg-brandGold mx-auto mt-3 rounded-full"></div>
+
+    <!-- Styles -->
+    <style>
+      
+    </style>
+
+    <!-- Infinite Logo Slider -->
+    <div class="logo-carousel mt-6">
+      <div class="logo-track">
+
+        <!-- ORIGINAL SET -->
+    <div class="logo-item"><img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/about/1.jpg" alt="Logo 1"></div>
+<div class="logo-item"><img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/about/2.jpg" alt="Logo 2"></div>
+<div class="logo-item"><img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/about/3.jpg" alt="Logo 3"></div>
+<div class="logo-item"><img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/about/4.jpg" alt="Logo 4"></div>
+<div class="logo-item"><img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/about/5.jpg" alt="Logo 5"></div>
+<div class="logo-item"><img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/about/6.jpg" alt="Logo 6"></div>
+<div class="logo-item"><img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/about/7.jpg" alt="Logo 7"></div>
+<div class="logo-item"><img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/about/8.jpg" alt="Logo 8"></div>
+
+        <!-- DUPLICATE SET FOR INFINITE SLIDE -->
+        
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -305,9 +613,8 @@
             </div>
             <div>
               <h3 class="text-2xl font-bold text-[#202b61] mb-2">How Much CWM® Charter Holders Earn?</h3>
-              <ul class="list-disc pl-5 text-gray-700 space-y-2">
-                <li>Whether you’re looking to safeguard your career or seeking a promotion.</li>
-                <li><strong>Fast Adoption:</strong> With essentials, getting your team on board is as simple as sending an email.</li>
+              <ul class=" pl-5 text-gray-700 space-y-2">
+               
                 <li>Earning the CWM® certification opens a variety of doors — the 2018 AAFM® Compensation Survey shows CWM®s earn <span class="font-bold text-[#f0a100]">27% more</span> than their non-certified peers.</li>
               </ul>
             </div>
@@ -395,9 +702,9 @@
 
     <!-- Buttons -->
     <div class="flex flex-wrap gap-4 mt-12 justify-center" data-aos="fade-up">
-      <a href="#" class="px-8 py-3 bg-[#202b61] text-white rounded-lg font-medium hover:bg-[#1a234f] transition">Download Brochure</a>
+      <a href="#" data-open-modal class="px-8 py-3 bg-[#202b61] text-white rounded-lg font-medium hover:bg-[#1a234f] transition">Download Brochure</a>
       <a href="#" class="px-8 py-3 bg-[#f0a100] text-white rounded-lg font-medium hover:bg-[#d98e00] transition">Request More Information</a>
-      <a href="#" class="px-8 py-3 border border-[#202b61] text-[#202b61] rounded-lg font-medium hover:bg-[#202b6110] transition">Register for CWM®</a>
+      <!-- <a href="#" class="px-8 py-3 border border-[#202b61] text-[#202b61] rounded-lg font-medium hover:bg-[#202b6110] transition">Register for CWM®</a> -->
     </div>
 
   </div>
@@ -502,7 +809,7 @@
 
     <!-- Right -->
     <div class="bg-white p-8 rounded-xl shadow-lg" data-aos="fade-left">
-      <h3 class="text-2xl font-bold text-[#202b61] mb-4">How the CWM® Certification Works</h3>
+      <h3 class="text-2xl font-bold text-[#202b61] mb-4">How the CWM® Certification Works ?</h3>
 
       <ul class="space-y-4 text-gray-700">
         <li>🎯 100% Online — learn anytime, anywhere</li>
@@ -553,19 +860,13 @@
 
     <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl shadow-lg" data-aos="fade-up" data-aos-delay="80">
       <div class="prose max-w-none text-gray-700">
-        <p>When you’re investing resources in career advancement, you want courses that are proven to help you acquire the real-life skills to get you recognized and moving up the career ladder.</p>
+        <p class="mb-4">When you’re investing resources in career advancement, you want courses that are proven to help you acquire the real-life skills to get you recognized and moving up the career ladder. AAFM®’s Chartered Wealth Manager® (CWM®) Certification is designed by instructors and practitioners with over 31+ years of Financial Professionals training experience. They’ve earned the credentials working at some of the largest and most well-known global banks and Wealth Management Organizations.</p>
 
-        <p>AAFM®’s Chartered Wealth Manager® (CWM®) Certification is designed by instructors and practitioners with over 31+ years of Financial Professionals training experience.</p>
+        <p class="mb-4">It’s a big advantage to learn from practitioners and trainers who obtained their experience training employees at these elite institutions. There are trainers who know what it’s like to perform these skills on the job – not just prepare you for passing a test. Passing tests is critical, but that doesn’t help you when you’re back at your job, needing to advise an ultra-rich client.</p>
 
-        <p>They’ve earned the credentials working at some of the largest and most well-known global banks and Wealth Management Organizations: It’s a big advantage to learn from practitioners and trainers who obtained their experience training employees at these elite institutions.</p>
+        <p>AAFM® courses have been delivered to tens of thousands of students at the top universities, global banks, wealth management organizations, and financial companies across the world. AAFM® is accredited by US Department of Labor and FINRA and many other Statuary Global Bodies. In India National Institute of Securities Market an Institution set by Securities &amp; Exchange Board of India (SEBI) has accredited the CWM® Certification under the SEBI RIA Regulations.</p>
 
-        <p>Trainers who know what it’s like to perform these skills on the job – not just prepare you for passing a test. Passing tests is critical, but that doesn’t help you when you’re back at your job, needing to advise an ultra-rich client.</p>
-
-        <p>AAFM® courses have been delivered to tens of thousands of students at the top universities, global banks, wealth management organizations, and financial companies across the world.</p>
-
-        <p>AAFM® is accredited by US Department of Labor and FINRA and many other Statuary Global Bodies.</p>
-
-        <p>In India National Institute of Securities Market an Institution set by Securities &amp; Exchange Board of India (SEBI) has accredited the CWM® Certification under the SEBI RIA Regulations.</p>
+        
       </div>
     </div>
 
@@ -577,12 +878,90 @@
     </div>
 
     <div class="mt-8 text-center" data-aos="fade-up" data-aos-delay="180">
-      <a href="#contact" class="inline-block px-6 py-3 btn-primary text-white rounded-lg font-semibold mr-3">Download Brochure</a>
+      <a href="#" data-open-modal class="inline-block px-6 py-3 btn-primary text-white rounded-lg font-semibold mr-3">Download Brochure</a>
       <a href="#testimonials" class="inline-block px-6 py-3 border border-gray-300 text-gray-700 rounded-lg font-medium">Meet Our Alumni</a>
     </div>
 
   </div>
 </section>
+
+<!-- Recognition / Corporate Partners Section -->
+<!-- CORPORATE PARTNERS -->
+<section class="py-14 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+
+    <!-- Heading -->
+    <h2 class="text-3xl font-extrabold text-brandNavy">Our Corporate Partners</h2>
+    <p class="mt-2 text-slate-600 max-w-2xl mx-auto">
+      AAFM® India is Trusted by leading banks, wealth firms, and financial
+      institutions across India.
+    </p>
+
+    <!-- Blue underline -->
+    <div class="w-24 h-1 bg-brandGold mx-auto mt-4 rounded-full"></div>
+
+    <!-- LOGO GRID -->
+    <div class="mt-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+
+     <div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_1.png" alt="Logo 1" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_2.png" alt="Logo 2" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_3.png" alt="Logo 3" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_4.png" alt="Logo 4" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_5.png" alt="Logo 5" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_6.png" alt="Logo 6" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_7.png" alt="Logo 7" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_8.png" alt="Logo 8" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_9.png" alt="Logo 9" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_10.png" alt="Logo 10" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_11.png" alt="Logo 11" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_12.png" alt="Logo 12" class="h-12 object-contain">
+</div>
+
+<div class="bg-white rounded-xl shadow p-6 flex items-center justify-center">
+  <img src="https://aafmindia.info/Chartered-trust-and-estate-planner/assets/images/partner/logo_13.png" alt="Logo 13" class="h-12 object-contain">
+</div>
+
+
+    </div>
+
+  </div>
+</section>
+
+
 <section class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-6">
 
@@ -662,13 +1041,14 @@
 
 <!-- What You'll Learn (detailed) -->
 <section id="curriculum" class="section-padding">
-  <div class="max-w-7xl mx-auto px-6">
+  <div class="max-w-full mx-auto px-6">
     <div class="text-center mb-12">
       <h2 class="text-3xl font-bold">What You'll <span class="highlight">Learn</span></h2>
       <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Our comprehensive curriculum covers all aspects of wealth management to make you a complete financial professional</p>
     </div>
     
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div class="flex justify-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-6xl">
       <div class="card p-8">
         <div class="flex items-center mb-6">
           <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4">
@@ -678,63 +1058,63 @@
         </div>
         <ul class="space-y-3">
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Introduction to Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Investment Management & Planning</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Products in Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Laws of Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Applied Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Concept of Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Indian and Global Financial System</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Investment Vehicles of Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Measuring Investment Risk and Returns</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Concept of Insurance and Risk Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Role of Wealth Management in Banking</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Legalities in Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Tax Laws</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Life Cycle Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Intergenerational Wealth Transfer & Tax Planning</span>
           </li>
         </ul>
@@ -749,98 +1129,71 @@
         </div>
         <ul class="space-y-3">
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Asset Classes of Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Managing Relationship in Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Tools in Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Wealth Management Practice</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Equity Analysis</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Alternative Products in Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Real Estate Valuation and Analysis</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Behavioural Finance in Wealth Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Relationship Management by a Wealth Manager</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Loan & Debt Management</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Portfolio Management Strategies</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>International Tax and Trust Planning</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Wealth Management Planning</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Advanced Wealth Management</span>
           </li>
         </ul>
       </div>
       
-      <div class="card p-8">
-        <div class="flex items-center mb-6">
-          <div class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mr-4">
-            <i class="fas fa-trophy text-blue-600"></i>
-          </div>
-          <h4 class="font-bold text-xl">Career Outcomes</h4>
-        </div>
-        <p class="text-gray-700 mb-4">By taking the CWM® program, you give yourself the chance to:</p>
-        <ul class="space-y-3">
-          <li class="flex items-start">
-            <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
-            <span>Emerge with higher confidence and business skills</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
-            <span>Have enhanced career opportunities available to you</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-star text-yellow-500 mt-1 mr-3"></i>
-            <span>Be more sought-after in the eyes of hiring managers and recruiters</span>
-          </li>
-        </ul>
-        <div class="mt-6 p-4 bg-blue-50 rounded-lg">
-          <p class="text-sm text-blue-700">CWM<sup>®</sup> Charter Holders report <span class="font-bold">27% higher earnings</span> than their non-certified peers</p>
-        </div>
-      </div>
-    </div>
+    
     
     
       </div>
     </div>
   </div>
 </section>
-<section class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-6">
 
     <!-- Heading -->
@@ -986,10 +1339,20 @@
       </div>
     </div>
     
-    <div class="mt-12 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-8 text-white text-center">
-      <h3 class="text-2xl font-bold mb-4">Join 300,000+ CWM<sup>®</sup> Professionals Worldwide</h3>
-      <p class="text-lg opacity-90 mb-6">Take the next step in your wealth management career with a globally recognized certification</p>
-      <a href="#enrol" class="inline-block px-8 py-3 bg-white text-blue-600 rounded-lg font-semibold">Enroll Now</a>
+    <div class="mt-12 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-8 text-white overflow-hidden">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <!-- Left Side: Image -->
+        <div class="flex justify-center lg:justify-start">
+          <img src="images/aafm-upskill.jpg" alt="CWM Professional Growth" class="w-full max-w-lg h-auto rounded-lg shadow-xl object-cover">
+        </div>
+        
+        <!-- Right Side: Content -->
+        <div class="text-center lg:text-left">
+          <h3 class="text-2xl lg:text-3xl font-bold mb-4">Join 300,000+ CWM<sup>®</sup> Professionals Worldwide</h3>
+          <p class="text-lg opacity-90 mb-6">Take the next step in your wealth management career with a globally recognized certification</p>
+          <a href="#enrol" class="inline-block px-8 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:bg-gray-100 transition">Enroll Now</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -1098,29 +1461,28 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
       <div class="card p-8 text-center">
         <div class="mb-6">
-           <h3 class="text-2xl font-bold mb-2">CWM<sup>®</sup> Self Study</h3>
+           <h3 class="text-2xl font-bold mb-2">CWM<sup>®</sup>Registration - Self Study Mode</h3>
         
-          <div class="text-3xl font-bold accent-text mt-4">₹25,000 <span class="text-lg font-normal text-gray-500">+GST</span></div>
+          <div class="text-3xl font-bold accent-text mt-4">₹42,000 <span class="text-lg font-normal text-gray-500">+GST</span></div>
         </div>
-        <ul class="space-y-4 mb-8">
+        <ul class="space-y-4 mb-8 text-left">
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>All 20 Modules</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Quizzes, Assignments and Tests</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>PPTs and PDFs</span>
           </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
-            <span>50+ Hours of Video Lectures</span>
+          <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i><span>12 hours of Live along with 24 hrs of recorded sessions
+</span>
           </li>
         </ul>
-        <a href="#enrol" class="block w-full py-3 border border-blue-500 text-blue-600 rounded-lg font-medium">Select Plan</a>
+        <a href="#" class="block w-full py-3 border border-blue-500 text-blue-600 rounded-lg font-medium">Enquire Now</a>
       </div>
       
       <div class="card p-8 text-center relative border-2 border-blue-500 transform scale-105">
@@ -1128,52 +1490,56 @@
           <span class="bg-blue-500 text-white px-4 py-1 rounded-full text-sm font-medium">Most Popular</span>
         </div>
         <div class="mb-6">
-        <h3 class="text-2xl font-bold mb-2">CWM<sup>®</sup> Certification</h3>
-          <div class="text-3xl font-bold accent-text mt-4">₹50,000 <span class="text-lg font-normal text-gray-500">+GST</span></div>
+        <h3 class="text-2xl font-bold mb-2">CWM<sup>®</sup> Registration - Premium Live Training Mode</h3>
+          <div class="text-3xl font-bold accent-text mt-4">₹42,000 + 25000<span class="text-lg font-normal text-gray-500">+GST</span></div>
         </div>
-        <ul class="space-y-4 mb-8">
+        <ul class="space-y-4 mb-8 text-left">
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>All 20 Modules</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Quizzes, Assignments, and Tests</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>PPTs and PDFs</span>
           </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+          <!-- <li class="flex items-start">
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>50+ Hours of Video Lectures</span>
-          </li>
+          </li> -->
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Study at Your Own Pace</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Unlimited Academic Email Support</span>
           </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+          <!-- <li class="flex items-start">
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Wealth Plan Review & Feedback</span>
+          </li> -->
+          <li class="flex items-start">
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
+            <span>150+ Hours of Live Classes</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
-            <span>100+ Hours of Live Classes</span>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
+            <span>Paper Back Books with additional charges</span>
           </li>
           <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
-            <span>Paper Back Books</span>
-          </li>
-          <li class="flex items-start">
-            <i class="fas fa-check text-green-500 mt-1 mr-3"></i>
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
             <span>Extra Questions and Mock Tests</span>
           </li>
+           <li class="flex items-start">
+            <i class="fas fa-check text-green-500 mt-1 mr-3 flex-shrink-0"></i>
+            <span>Project Work For Level 1 & 2</span>
+          </li>
         </ul>
-        <a href="#enrol" class="block w-full py-3 btn-primary text-white rounded-lg font-medium">Select Plan</a>
+        <a href="#"  class="block w-full py-3 btn-primary text-white rounded-lg font-medium">Enquire now</a>
       </div>
       
     
@@ -1234,6 +1600,10 @@
   </div>
 </section>
 
+<!-- Global Affiliations Section -->
+<!-- GLOBAL ACCREDITATIONS -->
+
+
 <!-- FAQ (detailed) -->
 <section id="faq" class="section-padding bg-gray-50">
   <div class="max-w-4xl mx-auto px-6">
@@ -1241,54 +1611,130 @@
       <h2 class="text-3xl font-bold">Frequently Asked <span class="highlight">Questions</span></h2>
       <p class="mt-4 text-lg text-gray-600">Find answers to common questions about the CWM<sup>®</sup> certification program</p>
     </div>
-    
+
     <div class="space-y-4">
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
           <span>How long does it take to complete CWM<sup>®</sup> certification?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
-        <div class="mt-4 text-gray-700 space-y-3">
-          <p><strong>Compulsory Pathway:</strong> Minimum Time period is 5 Months</p>
-          <p><strong>Experience Pathway:</strong> Minimum Time period is 2 Months</p>
-          <p>Maximum time allowed to complete the program is 3 years subject to registration being renewed by the student. In case the student is unable to clear the program in 3 years he would not be given credit for any exams cleared during the period.</p>
-          <p>Candidates need to apply for the CWM<sup>®</sup> Certification within 90 Days of Clearing Level 2 Exam. If a candidate fails to do so he will have to reappear for level 2 exam again.</p>
+        <div class="mt-4 text-gray-700 space-y-2">
+          <p><strong>Compulsory Pathway:</strong> Minimum time period is 5 months.</p>
+          <p><strong>Experience Pathway:</strong> Minimum time period is 2 months.</p>
+          <p>Maximum time allowed to complete the program is 3 years, subject to registration being renewed by the student. If a student is unable to clear the program within 3 years, credits for exams cleared during that period will not be granted.</p>
+          <p>Candidates need to apply for the CWM<sup>®</sup> Certification within 90 days of clearing the Level 2 exam. If a candidate fails to do so, they will have to reappear for the Level 2 exam.</p>
         </div>
       </details>
-      
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
           <span>Can I order a physical copy of CWM<sup>®</sup> Study Material?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
         <div class="mt-4 text-gray-700">
-          <p>Yes; a physical copy of CWM<sup>®</sup> study material can be obtained by paying a fee of Rs.6,500 +GST.</p>
+          <p>Yes. A physical copy of CWM<sup>®</sup> study material can be obtained by paying a fee of <strong>Rs. 6,500 + GST</strong>.</p>
         </div>
       </details>
-      
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
           <span>Is CWM<sup>®</sup> courses accredited?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
-        <div class="mt-4 text-gray-700 space-y-3">
-          <p>Chartered Wealth Management<sup>®</sup> Designation is widely accredited Globally by different prestigious Government Bodies and Global Accreditation Organizations.</p>
-          <p>In India Chartered Wealth Manager<sup>®</sup> is accredited by National Institute of Securities Market (NISM) under the Securities and Exchange Board of India (SEBI) Investment Advisor Regulations 2013 under Clause 7(2).</p>
+        <div class="mt-4 text-gray-700 space-y-2">
+          <p>The Chartered Wealth Manager<sup>®</sup> designation is widely accredited globally by various government bodies and international accreditation organizations.</p>
+          <p>In India, the Chartered Wealth Manager<sup>®</sup> is accredited by the <strong>National Institute of Securities Market (NISM)</strong> under the <strong>Securities and Exchange Board of India (SEBI)</strong> Investment Advisor Regulations (Clause 7(2)).</p>
         </div>
       </details>
-      
+
+      <details class="card p-6 group">
+        <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
+          <span>Are there any additional fees or costs?</span>
+          <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
+        </summary>
+        <div class="mt-4 text-gray-700 space-y-3">
+          <p>There is no hidden or additional fee charged beyond the published options. Below is the fee structure for the two pathways:</p>
+
+          <div class="overflow-x-auto">
+            <table class="min-w-full border">
+              <thead class="bg-gray-100">
+                <tr>
+                  <th class="px-4 py-2 text-left">Item</th>
+                  <th class="px-4 py-2 text-left">Compulsory Pathway</th>
+                  <th class="px-4 py-2 text-left">Experience Pathway</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="px-4 py-2 border">Experience Requirement</td>
+                  <td class="px-4 py-2 border">Less than 3 years of Financial Services</td>
+                  <td class="px-4 py-2 border">More than 3 years of relevant Financial Services</td>
+                </tr>
+                <tr>
+                  <td class="px-4 py-2 border">Fees (options)</td>
+                  <td class="px-4 py-2 border">Registration + Online Courseware = <strong>Rs. 25,000 + 18% GST</strong><br/>Or Registration + Online Courseware + Paperback Books = <strong>Rs. 35,990</strong></td>
+                  <td class="px-4 py-2 border">Registration + Online Courseware = <strong>Rs. 25,000 + 18% GST</strong><br/>Or Registration + Online Courseware + Paperback Books = <strong>Rs. 35,990</strong></td>
+                </tr>
+                <tr>
+                  <td class="px-4 py-2 border">Examination</td>
+                  <td class="px-4 py-2 border">Both Levels 1 & 2</td>
+                  <td class="px-4 py-2 border">Only Level 2</td>
+                </tr>
+                <tr>
+                  <td class="px-4 py-2 border">Minimum Qualification to Register</td>
+                  <td class="px-4 py-2 border">Intermediate (for registration). For certification, must be graduate.</td>
+                  <td class="px-4 py-2 border">Graduate</td>
+                </tr>
+                <tr>
+                  <td class="px-4 py-2 border">Days to First Exam</td>
+                  <td class="px-4 py-2 border">60 Days</td>
+                  <td class="px-4 py-2 border">30 Days</td>
+                </tr>
+                <tr>
+                  <td class="px-4 py-2 border">Validity of Examination</td>
+                  <td class="px-4 py-2 border">Validity of Level 1 Exam is 3 years subject to renewal of registration</td>
+                  <td class="px-4 py-2 border">N.A.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="text-sm text-gray-600 mt-2"><strong>Important:</strong> Candidates must apply for Certification within 90 days of clearing the Level 2 exam; otherwise they will need to clear the Level 2 exam again.</p>
+        </div>
+      </details>
+
+      <details class="card p-6 group">
+        <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
+          <span>What currency are your courses priced in?</span>
+          <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
+        </summary>
+        <div class="mt-4 text-gray-700">
+          <p>AAFM<sup>®</sup>'s courses are priced in <strong>INR</strong> and <strong>USD</strong> only.</p>
+        </div>
+      </details>
+
+      <details class="card p-6 group">
+        <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
+          <span>Can I take individual courses instead of completing the whole program?</span>
+          <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
+        </summary>
+        <div class="mt-4 text-gray-700">
+          <p>If you are a working professional with more than 3 years of relevant sector experience, you are eligible for the CWM<sup>®</sup> Experience Pathway and may only need to clear Level 2.</p>
+        </div>
+      </details>
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
           <span>How do the exams work?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
-        <div class="mt-4 text-gray-700 space-y-4">
-          <p>The number of Exams a student has to clear depend upon the pathway they choose:</p>
+        <div class="mt-4 text-gray-700 space-y-3">
+          <p>The number of exams depends on the pathway you choose:</p>
           <ul class="list-disc pl-5 space-y-2">
-            <li><strong>Compulsory Pathway Student:</strong> Has to clear both Level 1 and Level 2 Examination.</li>
-            <li><strong>Experience Pathway Student:</strong> Has to clear only Level 2 Examination.</li>
+            <li><strong>Compulsory Pathway:</strong> Level 1 and Level 2 (both)</li>
+            <li><strong>Experience Pathway:</strong> Level 2 only</li>
           </ul>
-          
+
           <div class="overflow-x-auto">
             <table class="min-w-full border">
               <thead class="bg-gray-100">
@@ -1304,120 +1750,153 @@
                 <tr>
                   <td class="px-4 py-2 border">1</td>
                   <td class="px-4 py-2 border">Foundation Course</td>
-                  <td class="px-4 py-2 border">3hrs.</td>
+                  <td class="px-4 py-2 border">3 hrs</td>
                   <td class="px-4 py-2 border">MCQs (Objective)</td>
-                  <td class="px-4 py-2 border">1 Mark – 40 MCQs, 2 Marks – 30 MCQs, 4 Marks – 15 MCQs, Total – 160 Marks</td>
+                  <td class="px-4 py-2 border">1 Mark – 40 MCQs; 2 Marks – 30 MCQs; 4 Marks – 15 MCQs; Total Marks – 160</td>
                 </tr>
                 <tr>
                   <td class="px-4 py-2 border">2</td>
                   <td class="px-4 py-2 border">Advanced Wealth Management</td>
-                  <td class="px-4 py-2 border">3hrs.</td>
+                  <td class="px-4 py-2 border">3 hrs</td>
                   <td class="px-4 py-2 border">MCQs (Objective)</td>
-                  <td class="px-4 py-2 border">1 Mark – 40 MCQs, 2 Marks – 30 MCQs, 4 Marks – 15 MCQs, Total – 160 Marks</td>
+                  <td class="px-4 py-2 border">1 Mark – 40 MCQs; 2 Marks – 30 MCQs; 4 Marks – 15 MCQs; Total Marks – 160</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          
+
           <div class="mt-4 p-4 bg-blue-50 rounded-lg text-sm">
             <p class="text-blue-700"><strong>Note:</strong></p>
             <ul class="list-disc pl-5 text-blue-700 mt-2 space-y-1">
-              <li>Compulsory Pathway student can appear for level 2 exams only when he clears level 1 exam.</li>
-              <li>Level 2 exam covers level 1 course content also. So students are advised to acquaint themselves of the Concepts and Body of Knowledge of both the levels.</li>
-              <li>The CWM<sup>®</sup> India Examination is held at NSE and Pearson Vue Exam Centers.</li>
+              <li>Compulsory Pathway students can appear for Level 2 only after clearing Level 1.</li>
+              <li>Level 2 covers Level 1 course content as well; students should be familiar with both levels' material.</li>
+              <li>The CWM<sup>®</sup> India Examination is held at <strong>NSE</strong> and <strong>Pearson VUE</strong> exam centers.</li>
             </ul>
           </div>
         </div>
       </details>
-      
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
           <span>How do I earn my certificates?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
         <div class="mt-4 text-gray-700">
-          <p>After completion of both Level 1 & 2 Exam; project work and paying the required certification fee, you will be awarded the prestigious CWM<sup>®</sup> Certificate.</p>
+          <p>After successful completion of the required exams (both Level 1 & 2 for Compulsory Pathway), submission of any required project work, and payment of the certification fee, you will be awarded the CWM<sup>®</sup> Certificate.</p>
         </div>
       </details>
-      
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
           <span>Can I email the trainer if I have questions?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
         <div class="mt-4 text-gray-700">
-          <p>Yes; you can email to the trainer if you have any query related to academics. We always welcome the candidate's queries. We are reachable at <strong>academicsupport@aafmindia.co.in</strong> and <strong>acadecsupport@aafmindia.in</strong></p>
+          <p>Yes. For academic queries you can reach out to: <strong>academicsupport@aafmindia.co.in</strong> and <strong>acadecsupport@aafmindia.in</strong>.</p>
         </div>
       </details>
-      
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
-          <span>Will CWM<sup>®</sup> help me advance my career?</span>
+          <span>Will these courses help me advance my career?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
-        <div class="mt-4 text-gray-700 space-y-4">
-          <p>Wealth Management is one of the fastest growing and highest paid segment in the Financial Services Industry. To succeed in this demanding and highly rewarding field requires that an individual has high level of technical expertise coupled with very good social and communication skills. CWM<sup>®</sup> Designation focuses on developing a Complete Professional ready to enter the Wealth Management Domain with the requisite skills.</p>
-          
+        <div class="mt-4 text-gray-700 space-y-3">
+          <p>Wealth Management is one of the fastest growing and high-paying segments in Financial Services. The CWM<sup>®</sup> designation focuses on building the technical expertise and client-facing skills required to succeed in this field.</p>
+
           <div>
-            <h4 class="font-semibold mb-2">Benefits of CWM<sup>®</sup> for Organization:</h4>
+            <h4 class="font-semibold mb-2">Benefits of CWM<sup>®</sup> for Organizations</h4>
             <ul class="list-disc pl-5 space-y-1">
-              <li>Develops skills, knowledge and attitude of the employees</li>
-              <li>Increases the "Advice Quality" of the Financial Advisors</li>
-              <li>Demonstrates the quality of Advisors to the client</li>
-              <li>Helps the organization in achieving global standards and cutting edge knowledge</li>
+              <li>Develops skills, knowledge and attitude of employees</li>
+              <li>Increases the quality of advice from financial advisors</li>
+              <li>Demonstrates advisor competence to clients</li>
+              <li>Helps organizations achieve global standards and cutting-edge knowledge</li>
             </ul>
           </div>
-          
+
           <div>
-            <h4 class="font-semibold mb-2">Benefits to the Individual:</h4>
+            <h4 class="font-semibold mb-2">Benefits to the Individual</h4>
             <ul class="list-disc pl-5 space-y-1">
               <li>Increases technical and product knowledge</li>
-              <li>Enhances Client Management Skills</li>
-              <li>Deepens Client Relationship and allows word of mouth publicity</li>
-              <li>Creates Job and Career Opportunities</li>
-              <li>Become an expert in evaluation, diagnosis and planning in working with Super High Net Worth Clients</li>
-              <li>Maximize the impact of your client communications and reporting</li>
-              <li>The AAFM<sup>®</sup> Credentials and Board Certifications are for those who want to rise above the rest</li>
-              <li>Expand your wealth management skills by adopting international best practices</li>
+              <li>Enhances client management skills</li>
+              <li>Deepens client relationships and encourages word-of-mouth referrals</li>
+              <li>Creates job and career opportunities</li>
+              <li>Prepares you to advise HNI and Ultra-HNI clients</li>
+              <li>Improves client communications and reporting</li>
+              <li>Adopts international best practices to expand wealth-management skills</li>
             </ul>
           </div>
         </div>
       </details>
-      
+
+      <details class="card p-6 group">
+        <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
+          <span>Do you offer a monthly payment plan?</span>
+          <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
+        </summary>
+        <div class="mt-4 text-gray-700">
+          <p>No. We do not offer a monthly payment plan.</p>
+        </div>
+      </details>
+
+      <details class="card p-6 group">
+        <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
+          <span>What payment methods do you accept?</span>
+          <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
+        </summary>
+        <div class="mt-4 text-gray-700">
+          <p>We accept multiple payment methods including Cash, Demand Draft (DD), Cheques, Bank Transfer, and Credit/Debit Card payments.</p>
+        </div>
+      </details>
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
           <span>Who should consider CWM<sup>®</sup> Certification?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
         <div class="mt-4 text-gray-700">
-          <p>CWM<sup>®</sup> program is ideal for professional and graduates looking to gain in‐depth knowledge of advising High Net‐Worth Individuals (HNI'S) on managing, growing and transferring their wealth.</p>
-          <p>CWM<sup>®</sup> is for Financial Services Professionals, Existing Wealth Managers, Customer Relationship Managers, Insurance Advisors, Research Analyst, those looking to expand their careers in the Wealth Management and Financial Advisory, and graduates who want to be professionally and globally recognized.</p>
+          <p>The CWM<sup>®</sup> program is ideal for professionals and graduates seeking in-depth knowledge of advising High Net-Worth Individuals (HNI's) on managing, growing and transferring their wealth. It is suited to Financial Services Professionals, Wealth Managers, Relationship Managers, Insurance Advisors, Research Analysts, and graduates aiming for a globally recognized credential.</p>
         </div>
       </details>
-      
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
-          <span>What are the prospects of career in Wealth Management?</span>
+          <span>What are the prospects of a career in Wealth Management?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
-        <div class="mt-4 text-gray-700 space-y-3">
-          <p>In India all major Banks, NBFC's, Brokerage Houses and Financial Services Companies have a Wealth Management Division with acute shortage of trained manpower in them. Wealth Management is one of the fastest‐growing professions across the world and Wealth Managers are the most sought after professionals by a fast growing working population that earns well, and needs expert handling of their finances.</p>
-          <p>There are plenty of opportunities with Banks, Asset Management Companies, Brokerage Houses, Stock Broking Companies and KPO's who are seeking professionals with such expertise. Needless to say a career as a Wealth Manager can prove both challenging and rewarding.</p>
+        <div class="mt-4 text-gray-700 space-y-2">
+          <p>In India, and globally, Banks, NBFCs, Brokerage Houses, Asset Managers and Financial Services companies maintain Wealth Management divisions and actively seek trained professionals. Wealth Management is rapidly growing and offers challenging and rewarding career paths with strong demand for skilled advisers.</p>
         </div>
       </details>
-      
+
+      <details class="card p-6 group">
+        <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
+          <span>How is CWM<sup>®</sup> Certification different from other financial courses in India?</span>
+          <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
+        </summary>
+        <div class="mt-4 text-gray-700 space-y-2">
+          <ul class="list-disc pl-5 space-y-1">
+            <li>Use of board-certified designations after your name on business cards and promotional materials.</li>
+            <li>Truly global certification with no territorial examination required.</li>
+            <li>Certification awarded directly by the American Academy of Financial Management (AAFM®), USA.</li>
+            <li>Recognition by independent global authorities helps protect your job and enhance your professional image and salary potential.</li>
+            <li>Opportunity to be published on the AAFM site and join a large network of certificants.</li>
+          </ul>
+          <p class="mt-2">AAFM® Certifications are also recognized by regional bodies (for example the Arab Academy of Banking & Financial Sciences) in multiple countries.</p>
+        </div>
+      </details>
+
       <details class="card p-6 group">
         <summary class="font-semibold text-lg cursor-pointer list-none flex justify-between items-center">
           <span>Is CWM<sup>®</sup> Certification a Global Certification?</span>
           <i class="fas fa-chevron-down transform group-open:rotate-180 transition-transform"></i>
         </summary>
-        <div class="mt-4 text-gray-700 space-y-3">
-          <p>Chartered Wealth Manager<sup>®</sup> designation is a truly global designation as the course content is a judicious mix of Indian and International Content enabling the participants to have a thorough knowledge of both the Indian and International Financial Landscape.</p>
-          <p>CWM<sup>®</sup> Certificants can practice in their country of choice without any cross border registration or exam requirements. All Certificates are issued by AAFM<sup>®</sup> USA International Board of Standards enabling the CWM<sup>®</sup> Designation holders to practice across the Globe.</p>
+        <div class="mt-4 text-gray-700 space-y-2">
+          <p>The Chartered Wealth Manager<sup>®</sup> designation is a global credential: the curriculum mixes Indian and international content so certificants can practice across borders without additional cross-border registration or exams. Certificates are issued by AAFM<sup>®</sup> USA International Board of Standards.</p>
         </div>
       </details>
     </div>
-    
+
     <div class="mt-12 text-center">
       <p class="text-gray-600">Have more questions? <a href="#contact" class="text-blue-600 font-medium">Contact our support team</a></p>
     </div>
@@ -1438,52 +1917,57 @@
 
 <!-- Enquire Modal Form -->
 <div id="enquireModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
-  <div class="bg-white rounded-lg shadow-2xl w-full max-w-md mx-4 p-8 relative">
+  <div class="bg-white rounded-lg shadow-2xl w-full max-w-md mx-4 p-4 relative max-h-[90vh] overflow-y-auto">
+    
     <!-- Close Button -->
-    <button id="closeModal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700 text-2xl">
+    <button id="closeModal" class="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-xl">
       <i class="fas fa-times"></i>
     </button>
 
     <!-- Form Header -->
-    <div class="mb-6">
-      <h2 class="text-3xl font-bold text-[#202b61]">Get More Information</h2>
-      <p class="text-gray-600 mt-2">Fill the form below and we'll get back to you shortly</p>
+    <div class="mb-4">
+      <h2 class="text-xl font-bold text-[#202b61]">Download Brochure</h2>
+    
     </div>
 
     <!-- Form -->
-    <form id="enquireForm" class="space-y-4">
+    <form id="enquireForm" class="space-y-3" method="post" action="mail.php">
+
       <!-- Name Field -->
       <div>
-        <label class="block text-sm font-medium text-gray-700 mb-2">Full Name*</label>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Full Name*</label>
         <input 
           type="text" 
           id="modalName"
+          name="f_name"
           placeholder="Enter your full name" 
-          class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
       </div>
 
       <!-- Email Field -->
       <div>
-        <label class="block text-sm font-medium text-gray-700 mb-2">Email Address*</label>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Email Address*</label>
         <input 
           type="email" 
+          name="f_email"
           id="modalEmail"
           placeholder="Enter your email" 
-          class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           required
         />
       </div>
 
-      <!-- Phone Field (10 digits only) -->
+      <!-- Phone Field -->
       <div>
-        <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number* (10 digits)</label>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number* (10 digits)</label>
         <input 
           type="tel" 
           id="modalPhone"
+          name="f_phone"
           placeholder="Enter your 10-digit phone number" 
-          class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          class="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           maxlength="10"
           pattern="[0-9]{10}"
           required
@@ -1492,170 +1976,157 @@
 
       <!-- Message Field -->
       <div>
-        <label class="block text-sm font-medium text-gray-700 mb-2">Message (Optional)</label>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Message (Optional)</label>
         <textarea 
           id="modalMessage"
+          name="MasterInner_message"
           placeholder="Any specific questions?" 
-          class="w-full border border-gray-300 rounded-lg px-4 py-3 h-20 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          class="w-full border border-gray-300 rounded-lg px-3 py-2 h-20 focus:outline-none focus:ring-2 focus:ring-blue-500"
         ></textarea>
       </div>
 
       <!-- Terms -->
-      <p class="text-xs text-gray-500 text-center">By clicking submit, I authorize AAFM representative to contact me via phone or email</p>
+     
 
       <!-- Submit Button -->
       <button 
         type="submit" 
-        class="w-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg py-3 font-semibold flex items-center justify-center hover:shadow-lg transition"
+        name="submitpop"
+        class="w-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white rounded-lg py-2.5 font-semibold flex items-center justify-center hover:shadow-lg transition"
       >
-        <i class="fas fa-paper-plane mr-2"></i> Submit
+        <i class="fas fa-paper-plane mr-2"></i> Download Brochure
       </button>
+
     </form>
+
   </div>
 </div>
 
+
 <!-- Footer -->
-<footer class="bg-gray-900 text-white py-12">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
-      <div>
-        <div class="flex items-center mb-6">
-          <img 
-            src="https://www.aafmindia.co.in/cwm-certified-wealth-manager-amp/images/logo.png" 
-            alt="AAFM India Logo" 
-            class="w-[12rem] h-20 object-contain" 
-          >
-        </div>
-        <p class="text-gray-400 text-sm">Providing world-class wealth management education and certification to financial professionals across India and beyond.</p>
-      </div>
-      
-      <div>
-        <h4 class="font-bold text-lg mb-4">Contact Info</h4>
-        <div class="space-y-3">
-          <div class="flex items-start">
-            <i class="fas fa-map-marker-alt text-blue-400 mt-1 mr-3"></i>
-            <span class="text-gray-400 text-sm">Plot No - 30, 3rd Floor, Grover Tower - 1, Main Najafgarh Road, Shivaji Marg, New Delhi - 110015</span>
-          </div>
-          <div class="flex items-center">
-            <i class="fas fa-envelope text-blue-400 mr-3"></i>
-            <span class="text-gray-400 text-sm">info@aafmindia.co.in</span>
-          </div>
-          <div class="flex items-center">
-            <i class="fas fa-phone text-blue-400 mr-3"></i>
-            <span class="text-gray-400 text-sm">+91 9650159583</span>
-          </div>
-        </div>
-      </div>
-      
-      <div>
-        <h4 class="font-bold text-lg mb-4">Quick Links</h4>
-        <ul class="space-y-2">
-          <li><a href="#overview" class="text-gray-400 hover:text-white transition">Program Overview</a></li>
-          <li><a href="#curriculum" class="text-gray-400 hover:text-white transition">Curriculum</a></li>
-          <li><a href="#benefits" class="text-gray-400 hover:text-white transition">Career Benefits</a></li>
-          <li><a href="#pricing" class="text-gray-400 hover:text-white transition">Pricing</a></li>
-          <li><a href="#faq" class="text-gray-400 hover:text-white transition">FAQ</a></li>
-        </ul>
-      </div>
-      
-      <div>
-        <h4 class="font-bold text-lg mb-4">Connect With Us</h4>
-        <div class="flex space-x-4 mb-6">
-          <a href="https://www.linkedin.com/company/2423090/admin/dashboard/" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition" title="LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://x.com/AafmIndia" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition" title="Twitter/X">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.facebook.com/aafm.in/" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition" title="Facebook">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://www.instagram.com/aafm.india/" target="_blank" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-blue-600 transition" title="Instagram">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </div>
-        <div class="bg-gray-800 rounded-lg p-4">
-          <p class="text-sm text-gray-400">Subscribe to our newsletter for updates</p>
-          <div class="mt-2 flex">
-            <input type="email" placeholder="Your email" class="bg-gray-700 text-white px-3 py-2 rounded-l-lg text-sm w-full focus:outline-none">
-            <button class="bg-blue-600 text-white px-4 py-2 rounded-r-lg text-sm font-medium">Join</button>
-          </div>
-        </div>
-      </div>
+<footer class="bg-[#202b61] text-white py-16">
+  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
+
+    <!-- LEFT COLUMN -->
+    <div>
+      <img src="https://aafmindia.org/uploads/system/db6f613e343e74dba3c6a638ee224a62.png" class="w-56 mb-5">
+
+      <p class="text-sm leading-relaxed">
+        AAFM India is one of the leading professional organisation that works to promote
+        Financial Advisory & Wealth Management Course in the country.
+      </p>
+
+      <!-- SOCIAL ICONS -->
+      <ul class="flex items-center gap-4 mt-5 text-xl">
+        <li><a href="https://www.facebook.com/aafm.in" class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://twitter.com/AAFMIndia" class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/aafmindia/" class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://api.whatsapp.com/send/?phone=919355233440" class="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center"><i class="fab fa-whatsapp"></i></a></li>
+      </ul>
+
+      <!-- CONTACT -->
+      <h3 class="text-[#f0a100] font-semibold mt-8 mb-3">CONTACT US</h3>
+
+      <ul class="space-y-3 text-sm">
+        <li><a href="tel:+919711797800" class="flex items-center gap-2"><img src="https://aafmindia.org/uploads/system/calling.svg">+91 9711797800</a></li>
+        <li><a href="tel:01145120800" class="flex items-center gap-2"><img src="https://aafmindia.org/uploads/system/call.svg">011-45120800</a></li>
+        <li><a href="mailto:info@aafma.co.in" class="flex items-center gap-2"><img src="https://aafmindia.org/uploads/system/mail.svg">info@aafma.co.in</a></li>
+        <li class="flex items-start gap-2">
+          <img src="https://aafmindia.org/uploads/system/location.svg" class="mt-1">
+          Office No – 403, ITL Twin Towers, Plot No. B-09 Netaji Subhash Place, New Delhi-110034
+        </li>
+      </ul>
     </div>
-    
-    <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-      <p>Copyright © 2023 AAFM<sup>®</sup> India. All rights reserved. | Chartered Wealth Manager<sup>®</sup> is a registered trademark of the American Academy of Financial Management.</p>
+
+    <!-- MORE INFO -->
+    <div>
+      <h3 class="text-[#f0a100] font-semibold mb-4">MORE INFO</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="https://aafmindia.org/pages/about_aafm_india">AAFM INDIA</a></li>
+        <li><a href="https://aafmindia.org/pages/aafm_usa">AAFM USA</a></li>
+        <li><a href="https://aafmindia.org/page/missions">Mission</a></li>
+        <li><a href="https://aafmindia.org/pages/global_board_of_standards">Global Board</a></li>
+        <li><a href="https://aafmindia.org/pages/global_recognition">Global Recognition</a></li>
+        <li><a href="https://aafmindia.org/pages/list_of_speaker">List of Speakers</a></li>
+        <li><a href="https://www.aafmindia.co.in/ctep-trust-wills-estate-course.html">CTEP™ at a Glance</a></li>
+        <li><a href="https://aafmindia.org/pages/cwm_indiaataglance">CWM® at a Glance</a></li>
+        <li><a href="#">Site Map</a></li>
+        <li><a href="#">Partner With Us</a></li>
+        <li><a href="https://www.handlemobileapp.com/digital-suraksha/aafmindia-app/admin-panel/login/index/abchbhsvfhcsbahfbhbsfjaafmbvbvhzbhdfbshbdfhbhsbygfhawbrgawy" target="_blank">AAFM Digital Suraksha</a></li>
+        <li><a href="http://www.aafmindia.in/demo/usa-acer/candidate/wmat_registration.php">WMAT Registration</a></li>
+        <li><a href="http://www.aafmindia.in/demo/usa-acer/index.php">USA-ACER (Demo)</a></li>
+        <li><a href="https://aafmindia.org/home/privacy_policy">Privacy Policy</a></li>
+        <li><a href="https://aafmindia.org/home/our_team">Our Team</a></li>
+      </ul>
+    </div>
+
+    <!-- CERTIFICATION -->
+    <div>
+      <h3 class="text-[#f0a100] font-semibold mb-4">CERTIFICATION</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="https://aafmindia.org/pages/BenefitsofCharteredWealthManagementCertificationIndia">Chartered Wealth Manager®</a></li>
+        <li><a href="https://aafmindia.org/pages/BenefitsofCharteredTrustandEstatePlanner">Chartered Trust & Estate Planner®</a></li>
+        <li><a href="https://aafmindia.org/pages/accredited_financial_analysis_course">Accredited Financial Analyst</a></li>
+        <li><a href="https://aafmindia.org/pages/certificate_financial_goal_planning">Chartered Financial Goal Planner</a></li>
+        <li><a href="https://aafmindia.org/pages/real_estate_management_courses">Chartered Real Estate Professional</a></li>
+        <li><a href="https://aafmindia.org/pages/Industrylisting">Other Certifications</a></li>
+      </ul>
+    </div>
+
+    <!-- ASSOCIATES & PARTNER WITH US -->
+    <div>
+      <h3 class="text-[#f0a100] font-semibold mb-4">ASSOCIATES</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="https://aafmindia.org/pages/franchisee">Franchisee</a></li>
+        <li><a href="https://aafmindia.org/pages/AEPDirectory">Franchise Directory</a></li>
+        <li><a href="https://aafmindia.org/pages/Benifitesmembers">Become a Corporate Member</a></li>
+        <li><a href="https://aafmindia.org/pages/CorporateMembers">Corporate Members</a></li>
+      </ul>
+
+      <h3 class="text-[#f0a100] font-semibold mt-6 mb-4">PARTNER WITH US</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="https://aafmindia.org/pages/develop_finance_certification">Author Partner Program</a></li>
+        <li><a href="https://aafmindia.org/pages/become_training_provider">Become Our Authorized Education Provider</a></li>
+        <li><a href="https://aafmindia.org/pages/become_channel_partner">Become Our Channel Partner</a></li>
+        <li><a href="https://aafmindia.org/pages/become_finance_guest_blogger">Become Guest Blogger</a></li>
+      </ul>
+    </div>
+
+    <!-- ON THE WEB -->
+    <div>
+      <h3 class="text-[#f0a100] font-semibold mb-4">ON THE WEB</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="https://aafmindia.org/blog">Blogs</a></li>
+        <li><a href="https://www.facebook.com/aafm.in">Facebook</a></li>
+        <li><a href="https://www.linkedin.com/company/aafmindia/">Linkedin</a></li>
+        <li><a href="https://twitter.com/AAFMIndia">Twitter</a></li>
+        <li><a href="#">Slide Share</a></li>
+        <li><a href="https://aafmindia.org/home/event">Events</a></li>
+        <li><a href="https://www.youtube.com/c/AAFMIndiachannel">You Tube</a></li>
+        <li><a href="https://aafmindia.org/home/downloads">Downloads</a></li>
+        <li><a href="https://aafmindia.org/home/faq">FAQs</a></li>
+        <li><a href="https://aafmindia.org/home/sign_up">Login-4-Emp</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- COPYRIGHT -->
+  <div class="border-t border-white/20 mt-12 pt-6">
+    <div class="max-w-7xl mx-auto px-6 text-center text-sm text-gray-300">
+      © Copyright 2025 American Academy of Financial Management India Private Ltd.  
+      All rights reserved.
     </div>
   </div>
 </footer>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
   AOS.init({
     duration: 800,
     once: true,
   });
-
-  // Banner Form Validation
-  const bannerForm = document.getElementById('bannerForm');
-  if (bannerForm) {
-    bannerForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-
-      const inputs = bannerForm.querySelectorAll('input[required], textarea[required]');
-      let isValid = true;
-
-      inputs.forEach(input => {
-        const value = input.value.trim();
-        
-        if (!value) {
-          isValid = false;
-          input.classList.add('border-red-500');
-          return;
-        } else {
-          input.classList.remove('border-red-500');
-        }
-
-        // Email validation
-        if (input.type === 'email') {
-          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-          if (!emailRegex.test(value)) {
-            alert('Please enter a valid email address');
-            isValid = false;
-            input.classList.add('border-red-500');
-          }
-        }
-
-        // Phone validation (10 digits only)
-        if (input.type === 'tel') {
-          const phoneRegex = /^[0-9]{10}$/;
-          if (!phoneRegex.test(value)) {
-            alert('Please enter a valid 10-digit phone number');
-            isValid = false;
-            input.classList.add('border-red-500');
-          }
-        }
-      });
-
-      if (!isValid) {
-        alert('Please fill all required fields correctly');
-        return;
-      }
-
-      alert('Thank you for your interest! We will contact you soon.');
-      bannerForm.reset();
-    });
-
-    // Remove error border on input
-    const inputs = bannerForm.querySelectorAll('input, textarea');
-    inputs.forEach(input => {
-      input.addEventListener('focus', () => {
-        input.classList.remove('border-red-500');
-      });
-    });
-  }
-
-  // Modal Form Functionality
+ // Modal Form Functionality
   const modal = document.getElementById('enquireModal');
   const enquireButtons = document.querySelectorAll('[data-open-modal]');
   const closeBtn = document.getElementById('closeModal');
@@ -1685,51 +2156,8 @@
       form.reset();
     }
   });
-
-  // Form validation and submission
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-
-    const name = document.getElementById('modalName').value.trim();
-    const email = document.getElementById('modalEmail').value.trim();
-    const phone = document.getElementById('modalPhone').value.trim();
-    const message = document.getElementById('modalMessage').value.trim();
-
-    // Validation
-    if (!name) {
-      alert('Please enter your name');
-      return;
-    }
-
-    if (!email) {
-      alert('Please enter your email');
-      return;
-    }
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      alert('Please enter a valid email address');
-      return;
-    }
-
-    if (!phone) {
-      alert('Please enter your phone number');
-      return;
-    }
-
-    // Phone number validation (10 digits only)
-    const phoneRegex = /^[0-9]{10}$/;
-    if (!phoneRegex.test(phone)) {
-      alert('Please enter a valid 10-digit phone number');
-      return;
-    }
-
-    // If all validations pass
-    alert('Thank you for your interest! We will contact you soon.');
-    modal.classList.add('hidden');
-    modal.classList.remove('flex');
-    form.reset();
-  });
+ 
 </script>
 </body>
 </html>
+
